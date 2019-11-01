@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu&display=swap');
+
+.bg-transparant-pink {
+    background-color: rgba(246, 193, 205, 0.7);
+    color: white;
+  }
+
+.PrikPins-link {
+  color: #e590a2;
+}
+
+.bg-pink {
+  background-color: #f7c4cd;
+}
+
+.logo {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.carousel-item-coming-soon {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: 700px;
+  -moz-background-size: 700px;
+  -o-background-size: 700px;
+  background-size: 700px;
+  max-height: 500px;
+  background-color: #ffe3df;
+}
+/* body {
+  background: url('https://source.unsplash.com/twukN12EN7c/1920x1080') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+*/
+
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+  padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+  font-size:25px;
+  -webkit-transition: .5s all ease;
+  -moz-transition: .5s all ease;
+  transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+  font-size:30px;
+  margin-top:-10px;
+}
+#footer ul.social li a {
+  color:#f7c4cd;
+}
+#footer ul.social li a:hover{
+  color:#eeeeee;
+}
+
+@media (max-width:767px){
+  #footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
